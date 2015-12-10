@@ -18,6 +18,8 @@ linux如何设置一个目录下全部文件的权限
 chmod -R 777 apache-tomcat-7.0.54
 使用工具用ssh security
 
+dddd
+
 
 
 
