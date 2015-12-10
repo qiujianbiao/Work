@@ -1,22 +1,24 @@
-rm -f * É¾³ıµ±Ç°ÎÄ¼ş¼ĞÏÂËùÓĞÎÄ¼ş
-rm -rf * É¾³ıµ±Ç°ÎÄ¼ş¼ĞÏÂÃæËùÓĞÎÄ¼ş¼Ğ
-ps -ef | grep java ²é¿´½ø³Ì
-kill ¡¾½ø³Ì±àºÅ¡¿
-½øÈëtomcat/binÄ¿Â¼£¬sh shutdown.sh Í£Ö¹tomcat£¬sh startup.sh Æô¶¯·şÎñ
-½øÈëtomcat/logÄ¿Â¼£¬tail -f catalina.out
-¿½±´ÓÃcp -rf Ä¿Â¼1 Ä¿Â¼2
-kill -9 7010  É¾³ı½ø³Ì
-netstat -antupl ¶Ë¿ÚÊÇ·ñ´¦ÓÚ¼àÌı×´Ì¬¡£
-½âÑ¹µ±Ç°Ä¿Â¼ÏÂµÄzip
+rm -f * åˆ é™¤å½“å‰æ–‡ä»¶å¤¹ä¸‹æ‰€æœ‰æ–‡ä»¶
+rm -rf * åˆ é™¤å½“å‰æ–‡ä»¶å¤¹ä¸‹é¢æ‰€æœ‰æ–‡ä»¶å¤¹
+ps -ef | grep java æŸ¥çœ‹è¿›ç¨‹
+kill ã€è¿›ç¨‹ç¼–å·ã€‘
+è¿›å…¥tomcat/binç›®å½•ï¼Œsh shutdown.sh åœæ­¢tomcatï¼Œsh startup.sh å¯åŠ¨æœåŠ¡
+è¿›å…¥tomcat/logç›®å½•ï¼Œtail -f catalina.out
+æ‹·è´ç”¨cp -rf ç›®å½•1 ç›®å½•2
+kill -9 7010  åˆ é™¤è¿›ç¨‹
+netstat -antupl ç«¯å£æ˜¯å¦å¤„äºç›‘å¬çŠ¶æ€ã€‚
+è§£å‹å½“å‰ç›®å½•ä¸‹çš„zip
 unzip *zip
 
-¶¨Î»µ½±¾»úÄ¿Â¼
+å®šä½åˆ°æœ¬æœºç›®å½•
 lcd C:\Mobirit_Workspaces\worldPhoneAccessPlatform
-´«ÎÄ¼şµ½¸ùÄ¿Â¼
+ä¼ æ–‡ä»¶åˆ°æ ¹ç›®å½•
 put worldPhoneAccessPlatform.zip
-linuxÈçºÎÉèÖÃÒ»¸öÄ¿Â¼ÏÂÈ«²¿ÎÄ¼şµÄÈ¨ÏŞ
+linuxå¦‚ä½•è®¾ç½®ä¸€ä¸ªç›®å½•ä¸‹å…¨éƒ¨æ–‡ä»¶çš„æƒé™
 chmod -R 777 apache-tomcat-7.0.54
-Ê¹ÓÃ¹¤¾ßÓÃssh security
+ä½¿ç”¨å·¥å…·ç”¨ssh security
+
+kkkk
 
 
 
