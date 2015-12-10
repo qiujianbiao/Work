@@ -1,0 +1,26 @@
+rm -f * 删除当前文件夹下所有文件
+rm -rf * 删除当前文件夹下面所有文件夹
+ps -ef | grep java 查看进程
+kill 【进程编号】
+进入tomcat/bin目录，sh shutdown.sh 停止tomcat，sh startup.sh 启动服务
+进入tomcat/log目录，tail -f catalina.out
+拷贝用cp -rf 目录1 目录2
+kill -9 7010  删除进程
+netstat -antupl 端口是否处于监听状态。
+解压当前目录下的zip
+unzip *zip
+
+定位到本机目录
+lcd C:\Mobirit_Workspaces\worldPhoneAccessPlatform
+传文件到根目录
+put worldPhoneAccessPlatform.zip
+linux如何设置一个目录下全部文件的权限
+chmod -R 777 apache-tomcat-7.0.54
+使用工具用ssh security
+
+
+
+
+
+
+
